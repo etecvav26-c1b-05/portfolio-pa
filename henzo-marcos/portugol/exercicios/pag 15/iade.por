@@ -24,11 +24,12 @@ programa
 		limpa ()
 		escreva("nome: "+ nome)
 		escreva("sua idade em anos: "+ idade)
-		escreva("sua idade em meses: " + idade*12)
-		escreva("sua idade em dias: "+ idade*365)
+		escreva("\nsua idade em meses: " + idade*12)
+		escreva("\nsua idade em dias: "+ idade*365)
 	}
 	
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
