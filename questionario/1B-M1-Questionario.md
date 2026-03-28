@@ -8,8 +8,8 @@ Exercicio 1 - marcos gomes
   Exemplo do cotidiano
   Fazer miojo:
 
-  ferver a água
-  colocar o macarrão
-  esperar alguns minutos
-  adicionar o tempero
-  mexer e servir
+  -ferver a água
+  -colocar o macarrão
+  -esperar alguns minutos
+  -adicionar o tempero
+  -mexer e servir
