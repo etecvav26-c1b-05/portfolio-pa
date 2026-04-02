@@ -34,3 +34,36 @@ Exercicio 1 - Marcos Gomes
         senão
           escreva n3
 
+
+
+  Exercício 3 - Matheus
+  O que é o Portugol Studio?
+    O Portugol Studio é um programa usado pra aprender lógica de programação.
+  Ele permite escrever algoritmos em português (tipo “leia”, “escreva”, “se”), o que facilita bastante pra quem está começando.
+
+   ele serve pra:
+Treinar lógica de programação
+Entender como programas funcionam
+Aprender antes de ir pra linguagens mais difíceis (tipo Java, Python, etc.)
+
+Crie um pequeno programa que leia um número e mostre o número multiplicado por 2:
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro numero
+
+		escreva("Qual o número que vai ser multiplicado?\n")
+		
+		leia(numero)
+		
+		escreva("O seu número, multiplicado por 2, é " +numero * 2)
+    }
+}
+Print do código
+https://github.com/user-attachments/assets/3b07ae7e-d9e4-46b2-89d5-796de2f64290
+
+Minha experiência:
+Usar o Portugol Studio é muito fácil.
+Ele é fácil de entender porque usa palavras em português, então é muito mais tranquilo de entender os comandos
