@@ -1,0 +1,46 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Passagem.por
+* Data: 02/04/2026
+* Autores: Miguel Rossi e Matheus Felipe
+* Descrição:  Ler a idade de um passageiro e determinar o preço da passagem.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade
+		
+			escreva("Insira a idade: ")
+
+			leia(idade)
+			
+			limpa()
+
+		se (idade <= 2)
+		
+		{
+			
+			escreva("Passagem gratuita")
+		}
+		
+		
+		senao se (idade >= 3 e idade <= 12)
+		
+		{
+			
+			escreva("Meia Tarifa")
+		}
+		
+		senao
+		{
+			
+			escreva("Tarifa Completa")
+			
+		}
+			
+
+	}
+}
