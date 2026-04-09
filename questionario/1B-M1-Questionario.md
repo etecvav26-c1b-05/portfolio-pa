@@ -1,4 +1,4 @@
-Exercicio 1 - Marcos Gomes
+*Exercicio 1* - Marcos Gomes
   O que é um algoritmo?
   Um algoritmo é basicamente um passo a passo para resolver um problema, é como uma receita que você segue etapas organizadas pra chegar em um resultado
 
@@ -15,7 +15,7 @@ Exercicio 1 - Marcos Gomes
   -mexer e servir
 
 
-  Exercicio 2 - Miguel Rossi
+  *Exercicio 2* - Miguel Rossi
   Descreva um algoritmo em linguagem natural para resolver esse problema.
   Um algoritmo para resolver este problema consiste em:
   1- Ler os 3 números
@@ -36,7 +36,7 @@ Exercicio 1 - Marcos Gomes
 
 
 
-  Exercício 3 - Matheus
+  *Exercício 3* - Matheus
   O que é o Portugol Studio?
     O Portugol Studio é um programa usado pra aprender lógica de programação.
   Ele permite escrever algoritmos em português (tipo “leia”, “escreva”, “se”), o que facilita bastante pra quem está começando.
@@ -69,7 +69,7 @@ Minha experiência:
 Usar o Portugol Studio é muito fácil.
 Ele é fácil de entender porque usa palavras em português, então é muito mais tranquilo de entender os comandos
 
-	Exercicio 4 - Henzo
+	*Exercicio 4 - Henzo
 	O que é um algoritmo?
 Um algoritmo é um conjunto de passos ou instruções que indicam como realizar uma tarefa ou resolver um problema, de forma organizada e lógica.
 A lógica de programação é a forma de pensar e organizar esses passos para criar algoritmos que o computador possa entender e executar.
