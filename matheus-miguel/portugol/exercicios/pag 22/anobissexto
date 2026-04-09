@@ -1,0 +1,28 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Data: 26/03/2026
+* Autor: Miguel Rossi e Matheus Felipe
+* Descrição: Ler ano e conferir se é bissexto.
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano
+
+		escreva("Qual o Ano?\n")
+
+		leia(ano)
+
+		limpa()
+
+	     se 
+	     	(ano % 4 == 0 e ano % 100 != 0 ou ano % 400 == 0) escreva("O ano é bissexto")
+	      
+	     senao
+	     	escreva("O ano não é bissexto")
+	}
+}
