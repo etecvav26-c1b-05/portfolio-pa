@@ -1,0 +1,41 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Gasolinas.por
+* Data: 29/03/2026
+* Autores: Miguel Rossi e Matheus Felipe 
+* Descrição: Ler a classificação indicativa de um filme e identificar sua categoria
+*/
+programa
+{
+	
+	funcao inicio()
+	
+	{
+		inteiro idade
+		
+			escreva("Insira a Idade: ")
+			
+			leia(idade)
+			
+			limpa()
+
+
+		se ( idade <= 10)
+		{
+			escreva("Classificação infantil")
+		}
+		senao se (idade >= 11 e idade <=14)
+		{
+			escreva("Classificação infantojuvenil")
+		}
+		senao se (idade >= 15 e idade <= 17)
+		{
+			escreva("Classificação juvenil")
+		}
+		senao
+		{
+			escreva("Classificação Adulto")
+		}
+	}
+}
