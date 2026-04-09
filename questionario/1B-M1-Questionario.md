@@ -1,4 +1,4 @@
-<font size="5">Exercicio 1</font> - Marcos Gomes
+<font size="15">Exercicio 1</font> - Marcos Gomes
   O que é um algoritmo?
   Um algoritmo é basicamente um passo a passo para resolver um problema, é como uma receita que você segue etapas organizadas pra chegar em um resultado
 
