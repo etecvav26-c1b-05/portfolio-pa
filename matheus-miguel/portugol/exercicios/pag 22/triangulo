@@ -1,0 +1,67 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: triangulo.por
+* Data: 26/03/2026
+* Autor: Miguel Rossi e Matheus Felipe
+* Descrição: Ler três números, verificar se forma um triangulo e que tipo de triangulo forma.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		real a
+		
+			escreva("Valor lado A: ")
+			
+			leia(a)
+			
+			limpa()
+
+		real b
+		
+			escreva("Valor lado B: ")
+			
+			leia(b)
+			
+			limpa()
+			
+
+		real c
+		
+			escreva("Valor lado C: ")
+			
+			leia(c)
+			
+			limpa()
+
+		inteiro a45
+
+			se
+				(a < b + c e c < a + b e b < a + c)
+			{ 
+			se (b == a e b == c)
+			{
+				escreva("triangulo equilatero")
+      				
+   			} 
+   			senao se 
+   			(a == b ou a == c ou b == c) 
+   			{
+      			escreva("Isosceles")
+      				
+ 		     } 
+ 		     senao
+ 		     {
+     			 escreva("Escaleno")
+     			 
+ 			 }
+			}
+			senao 
+			
+ 			escreva("Não é um trinagulo")
+			
+	 
+	}
+}
