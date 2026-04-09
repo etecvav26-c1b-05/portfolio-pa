@@ -1,0 +1,41 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Gasolinas.por
+* Data: 09/04/2026
+* Autores: Miguel Rossi e Matheus Felipe 
+* Descrição: Ler o preço do etanol e da gasolina. Sugerir o tipo de combustível a ser
+utilizado em um carro, com base no preço: se o preço do etanol for até
+70% do preço da gasolina, é recomendado usar álcool; caso contrário,
+usar gasolina. Exibir o resultado sugerido.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		real gasolina, etanol, limiteEtanol
+		
+			escreva("Preço da Gasolina: ")
+			
+			leia(gasolina)
+			
+			limpa()
+			
+			escreva("Preço Etanol: ")
+			
+			leia(etanol)
+			
+			limpa()
+
+		limiteEtanol = gasolina * 0.7
+
+		se 
+			(etanol <= limiteEtanol)
+			escreva("Utilizar Etanol.")
+
+		senao
+			escreva("utilizar gasolina.")
+			
+	}
+}
