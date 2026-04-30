@@ -1,4 +1,4 @@
-#* Exercicio 1*
+# **Exercicio 1**
 ```
 /* 
 	Nome: Marcos Gomes e Henzo Souza
