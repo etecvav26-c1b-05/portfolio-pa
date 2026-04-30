@@ -1,4 +1,11 @@
-```#include <iostream>
+#* Exercicio 1*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado: Ler um número inteiro. Verificar e exibir se o número é primo.
+	data: 30/04/2026
+*/
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -21,4 +28,5 @@ int main() {
 		cout << numero << " E primo";
 	}
 }
+
 ```
