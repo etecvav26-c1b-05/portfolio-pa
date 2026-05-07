@@ -234,6 +234,43 @@ int main() {
 
 
 
+
+# **Exercicio 8**
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int limite;
+    int somaPar = 0;
+    int somaImpar = 0;
+
+    cout << "Digite um numero: ";
+    cin >> limite;
+
+    for (int i = 0; i <= limite; i++) {
+
+        if (i % 2 == 0) {
+            somaPar = somaPar + i;
+        } 
+        else {
+            somaImpar = somaImpar + i;
+        }
+    }
+
+    cout << "Soma dos pares: " << somaPar << endl;
+    cout << "Soma dos impares: " << somaImpar << endl;
+
+    return 0;
+}
+```
+
+
+
+
+
 # **Exercicio 9**
 ```
 /* 
