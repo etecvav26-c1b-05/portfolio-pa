@@ -60,3 +60,97 @@ int main() {
 	return 0;
 }
 ```
+
+# **Exercicio 9**
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado: Ler um número entre 50 e 100. Exibir a sequência de Fibonacci até esse número.
+	data: 07/05/2026
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+    int limite;
+    int a = 0, b = 1, prox;
+
+    // Entrada
+    printf("Digite um numero entre 50 e 100: ");
+    scanf("%d", &limite);
+
+    // Validação
+    if (limite < 50 || limite > 100) {
+        printf("Numero invalido!\n");
+        return 0;
+    }
+
+    // Exibição dos primeiros termos
+    printf("Sequencia de Fibonacci:\n");
+    printf("%d %d ", a, b);
+
+    // Próximo termo
+    prox = a + b;
+
+    // Geração da sequência
+    while (prox <= limite) {
+        printf("%d ", prox);
+
+        a = b;
+        b = prox;
+        prox = a + b;
+    }
+
+    return 0;
+}
+```
+# **Exercicio 10**
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado: Simule um jogo de adivinhação. O programa deve gerar um número aleatório e o jogador precisa acertar o número.
+	Cada vez que o jogador informar o número, deve exibir se o palpite é muito alto, muito baixo ou correto. Quando for correto,
+	exibir a quantidade de palpites.
+	data: 07/05/2026
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int numeroSecreto, palpite;
+    int tentativas = 0;
+
+    // Inicializa números aleatórios
+    srand(time(NULL));
+
+    // Gera número entre 1 e 100
+    numeroSecreto = rand() % 100 + 1;
+
+    printf("=== JOGO DE ADIVINHACAO ===\n");
+    printf("Tente descobrir o numero entre 1 e 100.\n");
+
+    // Loop do jogo
+    do {
+        printf("\nDigite seu palpite: ");
+        scanf("%d", &palpite);
+
+        tentativas++;
+
+        if (palpite > numeroSecreto) {
+            printf("Muito alto!\n");
+        }
+        else if (palpite < numeroSecreto) {
+            printf("Muito baixo!\n");
+        }
+        else {
+            printf("Correto!\n");
+        }
+
+    } while (palpite != numeroSecreto);
+
+    // Resultado final
+    printf("Voce acertou em %d tentativas!\n", tentativas);
+
+    return 0;
+}
