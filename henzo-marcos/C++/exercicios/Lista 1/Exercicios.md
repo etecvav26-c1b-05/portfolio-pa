@@ -197,6 +197,43 @@ int main() {
 }
 ```
 
+
+
+# **Exercicio 7**
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    enunciado: Ler a quantidade de pessoas e ler a altura dessas pessoas. Calcular e exibir a altura média de todas as pessoas.
+    data: 07/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int qnt;
+	float soma = 0;
+	float altura;
+	
+	
+	cout << "Quantidade de Pessoas: ";
+	cin >> qnt;
+	
+	for (int i = 1; i <= qnt ; i++) {
+		cout << "\n Altura pessoa " << i << " : ";
+		cin >> altura;
+		
+		soma = soma + altura ;
+	}
+	
+	
+	cout << "Media das alturas: " << soma / qnt ;
+    return 0;
+}
+```
+
+
+
 # **Exercicio 9**
 ```
 /* 
