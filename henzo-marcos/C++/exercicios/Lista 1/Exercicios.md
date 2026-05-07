@@ -136,6 +136,35 @@ int main() {
 }
 ```
 
+# **Exercicio 5**
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    enunciado: Ler um número para a parada final e outro número que representa um múltiplo. Exibir os múltiplos do número lido de 1 até o número final lido.
+    data: 07/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int multiploF;
+	int numero;
+	
+	cout << "Insira o numero: ";
+	cin >> numero;
+	
+	cout << "Insira o multiplo: ";
+	cin >> multiploF;
+	
+	for (int i = 0 ; i <= multiploF ; i++) {
+		cout << numero * i << "\n";
+	}
+	
+
+    return 0;
+}
+```
 
 
 # **Exercicio 9**
