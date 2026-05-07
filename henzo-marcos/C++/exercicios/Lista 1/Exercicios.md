@@ -61,6 +61,39 @@ int main() {
 }
 ```
 
+
+# **Exercicio 3**
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado: Ler vários números até que seja digitado um número negativo. Calcular e exibir a soma desses números.
+	data: 30/04/2026
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+	int numero = 1;
+	int soma = 0;
+	
+	 while (numero > 0) {
+		cout << "insira um numero: ";
+		cin >> numero;
+		cout << endl;
+		if (numero > 0) {
+			soma = soma + numero;
+		}
+	}
+	
+	cout << "Soma: " << soma;
+	
+	
+	return 0;
+}
+```
+
+
+
 # **Exercicio 9**
 ```
 /* 
