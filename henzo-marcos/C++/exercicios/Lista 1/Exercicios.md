@@ -167,6 +167,36 @@ int main() {
 ```
 
 
+# **Exercicio 6**
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    enunciado: Ler vários números até que a soma desses números seja maior que 100. Exibir a multiplicação dos números lidos.
+    data: 07/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int numero;
+	int multi = 1;
+	int soma = 0;
+	
+	while ( soma < 100) {
+		cout << "Insira um Numero: ";
+		cin >> numero;
+		
+		soma = soma + numero;
+		multi = numero * multi;
+	}
+	
+	cout << "Soma: " << soma << "\n";
+	cout << "Multiplicaçao: " << multi;
+    return 0;
+}
+```
+
 # **Exercicio 9**
 ```
 /* 
