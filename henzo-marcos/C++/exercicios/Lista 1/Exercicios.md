@@ -92,6 +92,50 @@ int main() {
 }
 ```
 
+# **Exercicio 4**
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    enunciado: Ler 10 números. Verificar e exibir o menor e maior número dessa sequência.
+    data: 07/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int numero, contador = 1;
+
+    cout << "Insira um numero: ";
+    cin >> numero;
+
+    int menor = numero;
+    int maior = numero;
+
+    while (contador < 10) {
+
+        cout << "Insira um numero: ";
+        cin >> numero;
+
+        if (numero > maior) {
+            maior = numero;
+        }
+
+        if (numero < menor) {
+            menor = numero;
+        }
+
+        contador = contador + 1;
+    }
+
+    cout << "\nMenor numero: " << menor << endl;
+    cout << "Maior numero: " << maior << endl;
+
+    return 0;
+}
+```
+
 
 
 # **Exercicio 9**
