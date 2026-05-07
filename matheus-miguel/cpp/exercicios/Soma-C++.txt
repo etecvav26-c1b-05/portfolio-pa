@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    int soma = 0;
+
+    cout << "Digite os numeros (numero negativo para parar):" << endl;
+
+  
+    cin >> numero;
+
+
+    while (numero >= 0) {
+        soma += numero;
+
+  
+        cin >> numero;
+    }
+
+
+    cout << "Soma dos numeros digitados: " << soma << endl;
+
+    return 0;
+}
