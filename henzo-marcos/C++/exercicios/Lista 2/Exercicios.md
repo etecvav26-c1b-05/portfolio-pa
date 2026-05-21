@@ -167,3 +167,45 @@ int main() {
     return 0;
 }
 ```
+
+# *Exercicio 5*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 21/05/2026
+*/
+#include <iostream>
+using namespace std;
+
+//Funçao
+bool ehPalindromo(string palavra) {
+    int inicio = 0;
+    int fim = palavra.length() - 1;
+
+    while (inicio < fim) {
+        if (palavra[inicio] != palavra[fim]) {
+            return false;
+        }
+        inicio++;
+        fim--;
+    }
+
+    return true;
+}
+
+int main() {
+
+    string palavra;
+
+    cout << "Digite uma palavra: ";
+    cin >> palavra;
+
+    if (ehPalindromo(palavra)) {
+        cout << "Eh palindromo";
+    } else {
+        cout << "Nao eh palindromo";
+    }
+
+    return 0;
+}
+```
