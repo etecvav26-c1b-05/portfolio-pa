@@ -244,3 +244,54 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercicio 7*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+// Função para analisar a ordem dos numeros
+string ordem(int v[], int tamanho) {
+    bool crescente = true;
+    bool decrescente = true;
+
+    for (int i = 0; i < tamanho - 1; i++) {
+        if (v[i] < v[i + 1]) {
+            decrescente = false;
+        }
+        if (v[i] > v[i + 1]) {
+            crescente = false;
+        }
+    }
+
+    if (crescente) {
+        return "Em ordem crescente";
+    } 
+    else if (decrescente) {
+        return "Em ordem decrescente";
+    } 
+    else {
+        return "Nao ordenados";
+    }
+}
+
+int main() {
+    int numeros[5];
+
+    cout << "Digite 5 numeros: ";
+    
+    for (int i = 0; i < 5; i++) {
+        cin >> numeros[i];
+    }
+
+    cout << ordem(numeros, 5) << endl;
+
+    return 0;
+}
+```
