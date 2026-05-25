@@ -295,3 +295,41 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercicio 8*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+// Função para Calcular a Area
+	
+float calculoArea(int raio) {
+	return 3.14 * (raio * raio);
+}
+	
+	
+
+
+int main() {
+	int raio;
+	float soma = 0 ;
+	
+	for(int i = 1; i <= 5; i++){
+		cout << "Insira o Raio do Circulo " << i << " : ";
+		cin >> raio ;
+		
+		soma = soma + calculoArea(raio) ;
+	}
+	
+	cout << soma ;
+	
+	 
+    return 0;
+}
+```
