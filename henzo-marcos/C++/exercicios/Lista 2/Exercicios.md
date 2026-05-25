@@ -418,7 +418,7 @@ int main() {
     string palavra;
 
     cout << "Digite uma palavra: ";
-    cin >> palavra;
+    getline(cin, palavra);
 
     cout << "Quantidade de vogais: " << vogaisC(palavra) << endl;
 	cout << "Quantidade de Consoantes: " << consoantesC(palavra) << endl;
