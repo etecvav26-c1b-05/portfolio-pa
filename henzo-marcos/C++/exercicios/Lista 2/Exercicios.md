@@ -425,3 +425,39 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercicio 11*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int v[10];
+
+    // leitura do vetor
+    for(int i = 0; i < 10; i++) {
+        cout << "Digite o numero " << i + 1 << ": ";
+        cin >> v[i];
+
+        // substitui negativo por zero
+        if(v[i] < 0) {
+            v[i] = 0;
+        }
+    }
+
+    cout << "\nVetor final:\n";
+
+    // exibe o vetor
+    for(int i = 0; i < 10; i++) {
+        cout << v[i] << " ";
+    }
+
+    return 0;
+}
+```
