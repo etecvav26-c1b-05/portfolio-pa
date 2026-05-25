@@ -369,3 +369,59 @@ int main() {
     return 0;
 }
 ```
+
+# *Exercicio 10*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+// Função que conta vogais
+int vogaisC(string palavra) {
+    int vogais = 0;
+
+    for (int i = 0; i < palavra.length(); i++) {
+        char c = palavra[i];
+
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+            vogais++;
+        }
+    }
+    return vogais;
+}
+
+
+// Função que conta vogais
+int consoantesC(string palavra) {
+    int consoantes = 0;
+
+    for (int i = 0; i < palavra.length(); i++) {
+        char c = palavra[i];
+
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+        }
+        else{
+        	consoantes++;
+        }
+    }
+    return consoantes;
+}
+
+
+int main() {
+    string palavra;
+
+    cout << "Digite uma palavra: ";
+    cin >> palavra;
+
+    cout << "Quantidade de vogais: " << vogaisC(palavra) << endl;
+	cout << "Quantidade de Consoantes: " << consoantesC(palavra) << endl;
+    return 0;
+}
+```
