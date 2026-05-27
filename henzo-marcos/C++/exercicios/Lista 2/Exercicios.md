@@ -461,3 +461,41 @@ int main() {
     return 0;
 }
 ```
+
+# *Exercicio 12*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 27/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int v[15];
+    int par = 0, impar = 0;
+	
+// Leitura Dos Valroes
+	for(int i= 1; i <= 15; i++ ) {
+		cout << "Insira Um Numero: ";
+		cin >> v[i] ;
+	}
+	
+// Verifica Quais Sao pares e quais sao impares
+	for(int i=1; i <= 15; i++) {
+		if (v[i] % 2 == 0 ){
+			par++ ;
+		}
+		else {
+			impar++ ;
+		}
+	}
+	
+	
+	cout << "Numero de Pares: " << par  << endl ;
+	cout << "Numero de Impares: " << impar  << endl ;
+
+    return 0;
+}
+```
