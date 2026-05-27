@@ -584,3 +584,36 @@ int main() {
 	return 0;
 }
 ```
+
+
+# *Exercicio 15*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 27/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int v[20] ;
+	
+	for (int i =1 ; i <= 20 ; i++){
+		cout << "Valor " << i << " : " ;
+		cin >> v[i] ;
+	}
+	
+	for (int i =1 ; i <= 20 ; i++){
+		if(v[i] < 0) {
+			cout << "Indice do Numero Negativo: " << i ;
+			break;
+		}
+	}
+	
+	
+
+	return 0;
+}
+```
