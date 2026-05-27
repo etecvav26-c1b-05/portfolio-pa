@@ -537,3 +537,50 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercicio 14*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	string nomes[10], aux;
+
+	// Leitura dos nomes
+	for(int i = 0; i < 10; i++) {
+		cout << "Digite um nome: ";
+		cin >> nomes[i];
+	}
+
+	// Ordenacao em ordem crescente
+	for(int i = 0; i < 10; i++) {
+
+		for(int j = i + 1; j < 10; j++) {
+
+			if(nomes[i] > nomes[j]) {
+
+				aux = nomes[i];
+				nomes[i] = nomes[j];
+				nomes[j] = aux;
+
+			}
+		}
+	}
+
+	// Exibicao
+	cout << "\nNomes em ordem crescente:\n";
+
+	for(int i = 0; i < 10; i++) {
+		cout << nomes[i] << endl;
+	}
+
+	return 0;
+}
+```
