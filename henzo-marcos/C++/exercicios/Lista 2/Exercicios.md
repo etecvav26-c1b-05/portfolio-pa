@@ -499,3 +499,41 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercicio 13*
+```
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	data: 25/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	char l[20] ;
+	char le ;
+	int contador = 0 ;
+	
+	for (int i = 1 ; i <= 20 ; i++){
+		cout<< i << "Insira Um Caracter: " ;
+		cin >> l[i] ;
+	}
+	
+	cout << "Escolha Uma Letra Para Contagem: " ;
+	cin >> le ;
+	
+	for (int i = 1 ; i <= 20 ; i++){
+		if (l[i] == le ) {
+			contador++ ;
+		}
+
+	}
+	
+	cout << le << " Foi Digitado " << contador << " Vezes." ;
+	
+	
+    return 0;
+}
+```
