@@ -663,3 +663,58 @@ int main() {
     return 0;
 }
 ```
+
+
+
+
+
+# *Exercicio 17*
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    Data: 28/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    char letras[20];
+    char vogais[5];
+
+    int contador = 0;
+
+    // Leitura das letras
+    for(int i = 0; i < 20; i++) {
+        cout << "Digite uma letra: ";
+        cin >> letras[i];
+    }
+
+    // Verificando vogais
+    for(int i = 0; i < 20; i++) {
+
+        if(letras[i] == 'a' || letras[i] == 'e' || letras[i] == 'i' || letras[i] == 'o' || letras[i] == 'u') {
+            // Guardar no vetor de vogais
+            if(contador < 5) {
+                vogais[contador] = letras[i];
+            }
+			
+            contador++;
+        }    
+	}
+	
+
+    // Exibindo quantidade
+    cout << "\nQuantidade de vogais: " << contador;
+
+    // Exibindo vetor de vogais
+    cout << "\nVogais encontradas: ";
+
+    for(int i = 0; i < contador && i < 5; i++) {
+        cout << vogais[i] << " ";
+    }
+
+    return 0;
+}
+```
