@@ -617,3 +617,49 @@ int main() {
 	return 0;
 }
 ```
+
+
+# *Exercicio 16*
+```
+/* 
+    Nome: Marcos Gomes e Henzo Souza
+    Data: 28/05/2026
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int v[15];
+
+// Leitura dos valores
+    for (int i = 1; i <= 15; i++) {
+        cout << i << " Insira um valor: ";
+        cin >> v[i];
+    }
+
+// Inicializa maior e menor
+    int maior = 0;
+    int menor = 0;
+
+// Procura os índices
+    for (int i = 1; i < 15; i++) {
+        if (v[i] > v[maior]) {
+            maior = i;
+        }
+
+        if (v[i] < v[menor]) {
+            menor = i;
+        }
+    }
+
+//resultados
+    cout << "\nIndice do maior valor: " << maior << endl;
+    cout << "Valor do maior: " << v[maior] << endl;
+
+    cout << "\nIndice do menor valor: " << menor << endl;
+    cout << "Valor do menor: " << v[menor] << endl;
+
+    return 0;
+}
+```
