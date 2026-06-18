@@ -1,5 +1,5 @@
 # **Exercicio 1-incompleto-**
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	enunciado: Ler um número inteiro. Verificar e exibir se o número é primo.
