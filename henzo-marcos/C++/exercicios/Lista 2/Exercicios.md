@@ -754,69 +754,140 @@ int main() {
 ```
 
 
-# *Exercício 19*
-```
+# Exercício 19
+
+```cpp
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
-void exibirVetor(const char* nome, int v[], int tam) {
+void exibirVetor(string nome, int v[], int tam)
+{
     cout << nome << ": [ ";
-    for (int i = 0; i < tam; i++) cout << v[i] << " ";
+
+    for(int i = 0; i < tam; i++)
+    {
+        cout << v[i] << " ";
+    }
+
     cout << "]" << endl;
 }
 
-int main() {
+int main()
+{
     int nums[10];
-    int pares[10], impares[10], soma[10];
-    int qPares = 0, qImpares = 0;
+    int pares[10];
+    int impares[10];
+    int soma[10];
+
+    int qPares = 0;
+    int qImpares = 0;
 
     cout << "Digite 10 numeros:" << endl;
-    for (int i = 0; i < 10; i++) {
-        cout << "Numero " << i + 1 << ": ";
+
+    for(int i = 0; i < 10; i++)
+    {
         cin >> nums[i];
-        if (nums[i] % 2 == 0)
-            pares[qPares++] = nums[i];
+
+        if(nums[i] % 2 == 0)
+        {
+            pares[qPares] = nums[i];
+            qPares++;
+        }
         else
-            impares[qImpares++] = nums[i];
+        {
+            impares[qImpares] = nums[i];
+            qImpares++;
+        }
     }
 
-    sort(pares, pares + qPares);
-    sort(impares, impares + qImpares);
+    // Ordenar pares
+    for(int i = 0; i < qPares - 1; i++)
+    {
+        for(int j = i + 1; j < qPares; j++)
+        {
+            if(pares[i] > pares[j])
+            {
+                int aux = pares[i];
+                pares[i] = pares[j];
+                pares[j] = aux;
+            }
+        }
+    }
 
-    int qSoma = min(qPares, qImpares);
-    for (int i = 0; i < qSoma; i++)
+    // Ordenar impares
+    for(int i = 0; i < qImpares - 1; i++)
+    {
+        for(int j = i + 1; j < qImpares; j++)
+        {
+            if(impares[i] > impares[j])
+            {
+                int aux = impares[i];
+                impares[i] = impares[j];
+                impares[j] = aux;
+            }
+        }
+    }
+
+    int qSoma;
+
+    if(qPares < qImpares)
+        qSoma = qPares;
+    else
+        qSoma = qImpares;
+
+    for(int i = 0; i < qSoma; i++)
+    {
         soma[i] = pares[i] + impares[i];
+    }
 
-    cout << "\n--- Vetores ---" << endl;
-    exibirVetor("Pares   ", pares, qPares);
-    exibirVetor("Impares ", impares, qImpares);
-    exibirVetor("Soma    ", soma, qSoma);
+    cout << "\nVetores:" << endl;
+
+    exibirVetor("Pares", pares, qPares);
+    exibirVetor("Impares", impares, qImpares);
+    exibirVetor("Soma", soma, qSoma);
 
     return 0;
 }
 ```
 
+# Exercício 20
 
-# *Exercício 20*
-```
+```cpp
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
-int main() {
+int main()
+{
     int nums[10];
 
     cout << "Digite 10 numeros:" << endl;
-    for (int i = 0; i < 10; i++) {
-        cout << "Numero " << i + 1 << ": ";
+
+    for(int i = 0; i < 10; i++)
+    {
         cin >> nums[i];
     }
 
-    sort(nums, nums + 10);
+    // Ordenação simples
+    for(int i = 0; i < 9; i++)
+    {
+        for(int j = i + 1; j < 10; j++)
+        {
+            if(nums[i] > nums[j])
+            {
+                int aux = nums[i];
+                nums[i] = nums[j];
+                nums[j] = aux;
+            }
+        }
+    }
 
     cout << "\nVetor ordenado: [ ";
-    for (int i = 0; i < 10; i++) cout << nums[i] << " ";
+
+    for(int i = 0; i < 10; i++)
+    {
+        cout << nums[i] << " ";
+    }
+
     cout << "]" << endl;
 
     cout << "Terceiro menor valor: " << nums[2] << endl;
