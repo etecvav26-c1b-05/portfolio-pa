@@ -63,13 +63,3 @@ O objetivo é registrar a evolução dos conhecimentos em lógica de programaç�
 - Trabalhar em equipe em projetos acadêmicos.
 
 ---
-
-## 📈 Evolução
-
-```text
-Lógica de Programação      ██████████ 100%
-Estruturas Condicionais    ██████████ 100%
-Laços de Repetição         █████████░ 90%
-Vetores                    █████████░ 90%
-Matrizes                   ████████░░ 80%
-Funções                    ███████░░░ 70%
