@@ -718,3 +718,193 @@ int main() {
     return 0;
 }
 ```
+# *Exercício 18*
+```cpp
+/* 
+	Nome: Matheus Felipe e Miguel de Rossi
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+    char letras[20];
+    int vogais[5] = {0}; // [0]=a, [1]=e, [2]=i, [3]=o, [4]=u
+    int contagem = 0;
+
+    cout << "Digite 20 letras:" << endl;
+    for (int i = 0; i < 20; i++) {
+        cout << "Letra " << i + 1 << ": ";
+        cin >> letras[i];
+        letras[i] = tolower(letras[i]);
+
+        if (letras[i] == 'a') vogais[0]++;
+        else if (letras[i] == 'e') vogais[1]++;
+        else if (letras[i] == 'i') vogais[2]++;
+        else if (letras[i] == 'o') vogais[3]++;
+        else if (letras[i] == 'u') vogais[4]++;
+    }
+
+    cout << "\n--- Contagem de Vogais ---" << endl;
+    char nomes[5] = {'a', 'e', 'i', 'o', 'u'};
+    for (int i = 0; i < 5; i++) {
+        cout << "'" << nomes[i] << "': " << vogais[i] << " vez(es)" << endl;
+    }
+
+    return 0;
+}
+```
+
+
+# Exercício 19
+
+```cpp
+/* 
+	Nome: Matheus Felipe e Miguel de Rossi
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
+#include <iostream>
+using namespace std;
+
+void exibirVetor(string nome, int v[], int tam)
+{
+    cout << nome << ": [ ";
+
+    for(int i = 0; i < tam; i++)
+    {
+        cout << v[i] << " ";
+    }
+
+    cout << "]" << endl;
+}
+
+int main()
+{
+    int nums[10];
+    int pares[10];
+    int impares[10];
+    int soma[10];
+
+    int qPares = 0;
+    int qImpares = 0;
+
+    cout << "Digite 10 numeros:" << endl;
+
+    for(int i = 0; i < 10; i++)
+    {
+        cin >> nums[i];
+
+        if(nums[i] % 2 == 0)
+        {
+            pares[qPares] = nums[i];
+            qPares++;
+        }
+        else
+        {
+            impares[qImpares] = nums[i];
+            qImpares++;
+        }
+    }
+
+    // Ordenar pares
+    for(int i = 0; i < qPares - 1; i++)
+    {
+        for(int j = i + 1; j < qPares; j++)
+        {
+            if(pares[i] > pares[j])
+            {
+                int aux = pares[i];
+                pares[i] = pares[j];
+                pares[j] = aux;
+            }
+        }
+    }
+
+    // Ordenar impares
+    for(int i = 0; i < qImpares - 1; i++)
+    {
+        for(int j = i + 1; j < qImpares; j++)
+        {
+            if(impares[i] > impares[j])
+            {
+                int aux = impares[i];
+                impares[i] = impares[j];
+                impares[j] = aux;
+            }
+        }
+    }
+
+    int qSoma;
+
+    if(qPares < qImpares)
+        qSoma = qPares;
+    else
+        qSoma = qImpares;
+
+    for(int i = 0; i < qSoma; i++)
+    {
+        soma[i] = pares[i] + impares[i];
+    }
+
+    cout << "\nVetores:" << endl;
+
+    exibirVetor("Pares", pares, qPares);
+    exibirVetor("Impares", impares, qImpares);
+    exibirVetor("Soma", soma, qSoma);
+
+    return 0;
+}
+```
+
+# Exercício 20
+
+```cpp
+/* 
+	Nome:Matheus Felipe e Miguel de Rossi
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nums[10];
+
+    cout << "Digite 10 numeros:" << endl;
+
+    for(int i = 0; i < 10; i++)
+    {
+        cin >> nums[i];
+    }
+
+    // Ordenação simples
+    for(int i = 0; i < 9; i++)
+    {
+        for(int j = i + 1; j < 10; j++)
+        {
+            if(nums[i] > nums[j])
+            {
+                int aux = nums[i];
+                nums[i] = nums[j];
+                nums[j] = aux;
+            }
+        }
+    }
+
+    cout << "\nVetor ordenado: [ ";
+
+    for(int i = 0; i < 10; i++)
+    {
+        cout << nums[i] << " ";
+    }
+
+    cout << "]" << endl;
+
+    cout << "Terceiro menor valor: " << nums[2] << endl;
+
+    return 0;
+}
+```
