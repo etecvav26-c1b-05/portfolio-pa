@@ -1,6 +1,6 @@
 # *Exercicio 1*
 
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
