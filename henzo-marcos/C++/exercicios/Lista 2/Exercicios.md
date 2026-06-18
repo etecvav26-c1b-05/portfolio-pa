@@ -33,7 +33,7 @@ int main() {
 
 
 # *Exercicio 2*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
@@ -68,7 +68,7 @@ int main() {
 ```
 
 # *Exercicio 3*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
@@ -117,7 +117,7 @@ int main() {
 ```
 
 # *Exercicio 4*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 21/05/2026
@@ -169,7 +169,7 @@ int main() {
 ```
 
 # *Exercicio 5*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 21/05/2026
@@ -211,7 +211,7 @@ int main() {
 ```
 
 # *Exercicio 6*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -247,7 +247,7 @@ int main() {
 
 
 # *Exercicio 7*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -298,7 +298,7 @@ int main() {
 
 
 # *Exercicio 8*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -336,7 +336,7 @@ int main() {
 
 
 # *Exercicio 9*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -371,7 +371,7 @@ int main() {
 ```
 
 # *Exercicio 10*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -428,7 +428,7 @@ int main() {
 
 
 # *Exercicio 11*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -463,7 +463,7 @@ int main() {
 ```
 
 # *Exercicio 12*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 27/05/2026
@@ -502,7 +502,7 @@ int main() {
 
 
 # *Exercicio 13*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -540,7 +540,7 @@ int main() {
 
 
 # *Exercicio 14*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 25/05/2026
@@ -587,7 +587,7 @@ int main() {
 
 
 # *Exercicio 15*
-```
+```cpp
 /* 
 	Nome: Marcos Gomes e Henzo Souza
 	data: 27/05/2026
@@ -620,7 +620,7 @@ int main() {
 
 
 # *Exercicio 16*
-```
+```cpp
 /* 
     Nome: Marcos Gomes e Henzo Souza
     Data: 28/05/2026
@@ -669,7 +669,7 @@ int main() {
 
 
 # *Exercicio 17*
-```
+```cpp
 /* 
     Nome: Marcos Gomes e Henzo Souza
     Data: 28/05/2026
@@ -721,7 +721,12 @@ int main() {
 
 
 # *Exercício 18*
-```
+```cpp
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
 #include <iostream>
 using namespace std;
 
@@ -757,6 +762,11 @@ int main() {
 # Exercício 19
 
 ```cpp
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
 #include <iostream>
 using namespace std;
 
@@ -853,6 +863,11 @@ int main()
 # Exercício 20
 
 ```cpp
+/* 
+	Nome: Marcos Gomes e Henzo Souza
+	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
+	data: 17/06/2026
+*/
 #include <iostream>
 using namespace std;
 
