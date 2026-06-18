@@ -15,14 +15,12 @@ Repositório dedicado ao desenvolvimento de exercícios, algoritmos e projetos v
 
 ---
 
-## 👨‍💻 Equipe
+## 👨‍💻 Integrantes
 
-| Integrante | Função |
-|------------|---------|
-| Marcos Gomes | Desenvolvimento e Documentação |
-| Matheus Felipe | Programação |
-| Miguel de Rossi | Testes e Desenvolvimento |
-| Henzo Souza | Pesquisa e Apoio Técnico |
+- Marcos Gomes
+- Matheus Felipe
+- Miguel de Rossi
+- Henzo Souza
 
 ---
 
@@ -44,6 +42,18 @@ O objetivo é registrar a evolução dos conhecimentos em lógica de programaç�
 
 ---
 
+## 📖 Conteúdos Estudados
+
+- 🧠 Lógica de Programação
+- 🔀 Estruturas Condicionais
+- 🔁 Estruturas de Repetição
+- 📊 Vetores e Matrizes
+- 🧩 Funções
+- ⚡ Algoritmos
+- 🔎 Busca e Ordenação de Dados
+
+---
+
 ## 🎯 Objetivos
 
 - Desenvolver o raciocínio lógico.
@@ -54,13 +64,12 @@ O objetivo é registrar a evolução dos conhecimentos em lógica de programaç�
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📈 Evolução
 
 ```text
-📦 Programacao-e-Algoritmos
- ┣ 📂 Exercicios
- ┣ 📂 Vetores
- ┣ 📂 Matrizes
- ┣ 📂 Funcoes
- ┣ 📂 Projetos
- ┗ 📜 README.md
+Lógica de Programação      ██████████ 100%
+Estruturas Condicionais    ██████████ 100%
+Laços de Repetição         █████████░ 90%
+Vetores                    █████████░ 90%
+Matrizes                   ████████░░ 80%
+Funções                    ███████░░░ 70%
