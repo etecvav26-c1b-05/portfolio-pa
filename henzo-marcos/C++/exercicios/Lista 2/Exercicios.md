@@ -718,3 +718,109 @@ int main() {
     return 0;
 }
 ```
+
+
+# *Exercício 18*
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    char letras[20];
+    int vogais[5] = {0}; // [0]=a, [1]=e, [2]=i, [3]=o, [4]=u
+    int contagem = 0;
+
+    cout << "Digite 20 letras:" << endl;
+    for (int i = 0; i < 20; i++) {
+        cout << "Letra " << i + 1 << ": ";
+        cin >> letras[i];
+        letras[i] = tolower(letras[i]);
+
+        if (letras[i] == 'a') vogais[0]++;
+        else if (letras[i] == 'e') vogais[1]++;
+        else if (letras[i] == 'i') vogais[2]++;
+        else if (letras[i] == 'o') vogais[3]++;
+        else if (letras[i] == 'u') vogais[4]++;
+    }
+
+    cout << "\n--- Contagem de Vogais ---" << endl;
+    char nomes[5] = {'a', 'e', 'i', 'o', 'u'};
+    for (int i = 0; i < 5; i++) {
+        cout << "'" << nomes[i] << "': " << vogais[i] << " vez(es)" << endl;
+    }
+
+    return 0;
+}
+```
+
+
+# *Exercício 19*
+```
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+void exibirVetor(const char* nome, int v[], int tam) {
+    cout << nome << ": [ ";
+    for (int i = 0; i < tam; i++) cout << v[i] << " ";
+    cout << "]" << endl;
+}
+
+int main() {
+    int nums[10];
+    int pares[10], impares[10], soma[10];
+    int qPares = 0, qImpares = 0;
+
+    cout << "Digite 10 numeros:" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "Numero " << i + 1 << ": ";
+        cin >> nums[i];
+        if (nums[i] % 2 == 0)
+            pares[qPares++] = nums[i];
+        else
+            impares[qImpares++] = nums[i];
+    }
+
+    sort(pares, pares + qPares);
+    sort(impares, impares + qImpares);
+
+    int qSoma = min(qPares, qImpares);
+    for (int i = 0; i < qSoma; i++)
+        soma[i] = pares[i] + impares[i];
+
+    cout << "\n--- Vetores ---" << endl;
+    exibirVetor("Pares   ", pares, qPares);
+    exibirVetor("Impares ", impares, qImpares);
+    exibirVetor("Soma    ", soma, qSoma);
+
+    return 0;
+}
+```
+
+
+# *Exercício 20*
+```
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int nums[10];
+
+    cout << "Digite 10 numeros:" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "Numero " << i + 1 << ": ";
+        cin >> nums[i];
+    }
+
+    sort(nums, nums + 10);
+
+    cout << "\nVetor ordenado: [ ";
+    for (int i = 0; i < 10; i++) cout << nums[i] << " ";
+    cout << "]" << endl;
+
+    cout << "Terceiro menor valor: " << nums[2] << endl;
+
+    return 0;
+}
+```
