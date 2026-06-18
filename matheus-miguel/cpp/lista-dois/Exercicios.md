@@ -2,7 +2,7 @@
 
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
 	data: 21/05/2026
 */
@@ -35,7 +35,7 @@ int main() {
 # *Exercicio 2*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
 	data: 21/05/2026
 */
@@ -70,7 +70,7 @@ int main() {
 # *Exercicio 3*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	enunciado:  Ler a base e o expoente. Calcular a potência usando repetição.
 	data: 21/05/2026
 */
@@ -119,7 +119,7 @@ int main() {
 # *Exercicio 4*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 21/05/2026
 */
 #include <iostream>
@@ -171,7 +171,7 @@ int main() {
 # *Exercicio 5*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 21/05/2026
 */
 #include <iostream>
@@ -213,7 +213,7 @@ int main() {
 # *Exercicio 6*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 #include <iostream>
@@ -249,7 +249,7 @@ int main() {
 # *Exercicio 7*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -300,7 +300,7 @@ int main() {
 # *Exercicio 8*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -338,7 +338,7 @@ int main() {
 # *Exercicio 9*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -373,7 +373,7 @@ int main() {
 # *Exercicio 10*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -430,7 +430,7 @@ int main() {
 # *Exercicio 11*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -465,7 +465,7 @@ int main() {
 # *Exercicio 12*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 27/05/2026
 */
 
@@ -504,7 +504,7 @@ int main() {
 # *Exercicio 13*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -542,7 +542,7 @@ int main() {
 # *Exercicio 14*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 25/05/2026
 */
 
@@ -589,7 +589,7 @@ int main() {
 # *Exercicio 15*
 ```
 /* 
-	Nome: Marcos Gomes e Henzo Souza
+	Nome: Matheus Felipe e Miguel de Rossi
 	data: 27/05/2026
 */
 
@@ -622,7 +622,7 @@ int main() {
 # *Exercicio 16*
 ```
 /* 
-    Nome: Marcos Gomes e Henzo Souza
+    Nome: Matheus Felipe e Miguel de Rossi
     Data: 28/05/2026
 */
 
@@ -671,7 +671,7 @@ int main() {
 # *Exercicio 17*
 ```
 /* 
-    Nome: Marcos Gomes e Henzo Souza
+    Nome: Matheus Felipe e Miguel de Rossi
     Data: 28/05/2026
 */
 
