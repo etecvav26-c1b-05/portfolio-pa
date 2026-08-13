@@ -1,27 +1,16 @@
-# Conversão C++ para Python
+# 🐍 Conversão C++ para Python
 
-Este repositório contém exercícios resolvidos inicialmente em C++ e convertidos para Python.
+Repositório com exercícios originalmente desenvolvidos em C++ e convertidos para Python.
 
-## Objetivo
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Praticar lógica de programação usando:
+## 🎯 Objetivo
 
-- if
-- while
-- entrada de dados
-- saída de dados
-- operadores matemáticos
-- validação
+Praticar lógica de programação e a conversão de códigos entre C++ e Python.
 
-## Organização
+## 👥 Autoria
 
-- cpp/: versões originais em C++
-- python/: versões convertidas para Python
+**Códigos em C++:** Kael Elodie Whitmore
 
-## Autora dos exemplos em C++
-
-Kael Elodie Whitmore
-
-## Conversão para Python
-
-Alin
+**Códigos em Python:** Marcos Gomes e Henzo Souza
