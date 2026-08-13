@@ -21,6 +21,7 @@ Repositório dedicado ao desenvolvimento de exercícios, algoritmos e projetos v
 - Matheus Felipe
 - Miguel de Rossi
 - Henzo Souza
+- Samuel Kimura
 
 ---
 
