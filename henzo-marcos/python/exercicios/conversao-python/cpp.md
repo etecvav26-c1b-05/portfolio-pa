@@ -1,16 +1,10 @@
-Lista de Exercícios — C++
+# *Exercicio 1*
 
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
-    Lista: C++ para Conversão em Python
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
-*/
-
-Exercício 1 — Número positivo, negativo ou zero
-
-/*
-    Nome: Marcos Gomes e Henzo Souza
-    Data: Junho/2026
+    Descrição: Lê um número inteiro e informa se ele é positivo, negativo ou zero.
 */
 
 #include <iostream>
@@ -38,12 +32,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 2*
 
-Exercício 2 — Maior entre dois números
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Lê dois números inteiros e informa qual é o maior ou se são iguais.
 */
 
 #include <iostream>
@@ -74,12 +70,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 3*
 
-Exercício 3 — Contagem de 1 até N
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Lê um número inteiro positivo e exibe a contagem de 1 até esse número.
 */
 
 #include <iostream>
@@ -108,12 +106,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 4*
 
-Exercício 4 — Soma dos números pares
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Calcula a soma dos números pares de 1 até um número informado.
 */
 
 #include <iostream>
@@ -149,12 +149,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 5*
 
-Exercício 5 — Tabuada com validação
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Lê um número de 1 a 10 e exibe sua tabuada, validando a entrada.
 */
 
 #include <iostream>
@@ -182,12 +184,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 6*
 
-Exercício 6 — Média de notas
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Calcula a média de notas válidas entre 0 e 10 usando while.
 */
 
 #include <iostream>
@@ -222,12 +226,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 7*
 
-Exercício 7 — Contador de positivos, negativos e zeros
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Lê 10 números e conta quantos são positivos, negativos e zeros.
 */
 
 #include <iostream>
@@ -268,12 +274,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 8*
 
-Exercício 8 — Número primo
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Verifica se um número inteiro positivo é primo.
 */
 
 #include <iostream>
@@ -316,12 +324,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 9*
 
-Exercício 9 — Fatorial
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Calcula o fatorial de um número inteiro positivo.
 */
 
 #include <iostream>
@@ -353,12 +363,14 @@ int main()
 
     return 0;
 }
+```
+# *Exercicio 10*
 
-Exercício 10 — Sistema simples de senha
-
+```cpp
 /*
-    Nome: Marcos Gomes e Henzo Souza
+    Autor: Kael Elodie Whitmore
     Data: Junho/2026
+    Descrição: Simula um sistema simples de senha com até 3 tentativas.
 */
 
 #include <iostream>
@@ -393,3 +405,8 @@ int main()
 
     return 0;
 }
+```
+
+
+
+
