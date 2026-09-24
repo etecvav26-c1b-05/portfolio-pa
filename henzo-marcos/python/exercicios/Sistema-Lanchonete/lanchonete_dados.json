@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "code": "12",
+            "name": "pao",
+            "price": 12.99,
+            "stock": 7
+        }
+    ],
+    "orders": [
+        {
+            "customer_name": "marcos",
+            "product_code": "12",
+            "product_name": "pao",
+            "quantity": 2,
+            "total": 25.98
+        }
+    ]
+}
